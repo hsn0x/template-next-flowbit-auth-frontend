@@ -1,41 +1,51 @@
 {
-  "name": "template-next-flowbit-frontend",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.1.2",
-    "@fortawesome/free-regular-svg-icons": "^6.1.2",
-    "@fortawesome/free-solid-svg-icons": "^6.1.2",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "@heroicons/react": "^1.0.6",
-    "@reduxjs/toolkit": "^1.8.3",
-    "axios": "^0.27.2",
-    "cookie": "^0.5.0",
-    "flowbite": "^1.5.1",
-    "flowbite-react": "^0.1.5",
-    "iron-session": "^6.1.3",
-    "js-cookie": "^3.0.1",
-    "next": "12.2.3",
-    "next-connect": "^0.13.0",
-    "next-redux-wrapper": "^7.0.5",
-    "notiflix": "^3.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-redux": "^8.0.2",
-    "redux": "^4.2.0",
-    "redux-thunk": "^2.4.1"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.8",
-    "eslint": "8.21.0",
-    "eslint-config-next": "12.2.3",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.7"
-  }
+    "name": "template-next-flowbit-auth-frontend",
+    "version": "0.1.0",
+    "description": "template next flowbit auth frontend",
+    "private": true,
+    "main": "src/index.js",
+    "author": "Hassane Bendaoud <40140987+hsn0x@users.noreply.github.com>",
+    "license": "MIT",
+    "type": "module",
+    "repository": {
+        "url": "https://github.com/hsn0x/template-next-flowbit-auth-frontend.git",
+        "type": "git",
+        "directory": "."
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.1.2",
+        "@fortawesome/free-regular-svg-icons": "^6.1.2",
+        "@fortawesome/free-solid-svg-icons": "^6.1.2",
+        "@fortawesome/react-fontawesome": "^0.2.0",
+        "@heroicons/react": "^1.0.6",
+        "@reduxjs/toolkit": "^1.8.3",
+        "axios": "^0.27.2",
+        "cookie": "^0.5.0",
+        "flowbite": "^1.5.1",
+        "flowbite-react": "^0.1.5",
+        "iron-session": "^6.1.3",
+        "js-cookie": "^3.0.1",
+        "next": "12.2.3",
+        "next-connect": "^0.13.0",
+        "next-redux-wrapper": "^7.0.5",
+        "notiflix": "^3.2.5",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-redux": "^8.0.2",
+        "redux": "^4.2.0",
+        "redux-thunk": "^2.4.1"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.8",
+        "eslint": "8.21.0",
+        "eslint-config-next": "12.2.3",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.1.7"
+    }
 }
